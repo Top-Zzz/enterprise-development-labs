@@ -6,7 +6,7 @@ public static class DataSeeder
 {
     public static readonly List<Book> Books =
     [
-        new() { InventoryNumber = 1, CatalogCode = "X001", Authors = "А.Б. Смит", Title = "Программирование на C#", PublicationType = "Учебник", PublicationPlace = "Киев", PublicationYear = 2021 },
+        new() { InventoryNumber = 1, CatalogCode = "A123", Authors = "А.Б. Смит", Title = "Программирование на C#", PublicationType = "Учебник", PublicationPlace = "Киев", PublicationYear = 2021 },
         new() { InventoryNumber = 2, CatalogCode = "Y002", Authors = "Д.К. Джонсон", Title = "Искусственный интеллект", PublicationType = "Научная работа", PublicationPlace = "Одесса", PublicationYear = 2020 },
         new() { InventoryNumber = 3, CatalogCode = "Z003", Authors = "М.Н. Уильямс", Title = "Веб-разработка", PublicationType = "Практическое руководство", PublicationPlace = "Львов", PublicationYear = 2022 },
         new() { InventoryNumber = 4, CatalogCode = "W004", Authors = "О.П. Браун", Title = "Квантовая физика", PublicationType = "Исследование", PublicationPlace = "Харьков", PublicationYear = 2019 },
