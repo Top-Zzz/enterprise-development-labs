@@ -23,7 +23,7 @@ namespace Library.Domain.Tests
             var book = await repo.GetByCatalogCode("A123");
 
             Assert.True(book != null, "Expected a book with catalog code 'A123' but got null.");
-            Assert.Equal("Основы SQL", book?.Title);
+            Assert.Equal("Программирование на C#", book?.Title);
         }
 
         /// <summary>
