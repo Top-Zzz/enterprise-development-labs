@@ -22,7 +22,7 @@ namespace Library.Domain.Tests
             var repo = new BookInMemoryRepository();
             var book = await repo.GetByCatalogCode("A123");
 
-            Assert.NotNull(book);
+            Assert.True(book != null, "Expected a book with catalog code 'A123' but got null.");
             Assert.Equal("Основы SQL", book?.Title);
         }
 
